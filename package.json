@@ -22,6 +22,9 @@
     "netease_api:run": "npx @neteaseapireborn/api"
   },
   "main": "background.js",
+  "engines": {
+    "node": "14 || 16"
+  },
   "dependencies": {
     "@neteaseapireborn/api": "^4.29.7",
     "@unblockneteasemusic/rust-napi": "^0.4.0",
@@ -60,7 +63,7 @@
     "node-vibrant": "^3.2.1-alpha.1",
     "nprogress": "^0.2.0",
     "pac-proxy-agent": "^4.1.0",
-    "plyr": "^3.8.3",
+    "plyr": "^3.6.2",
     "qrcode": "^1.4.4",
     "register-service-worker": "^1.7.1",
     "svg-sprite-loader": "^6.0.11",
@@ -83,8 +86,8 @@
     "@vue/cli-plugin-vuex": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "babel-eslint": "^10.1.0",
-    "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.15.0",
+    "eslint": "^6.7.2",
+    "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-vue": "^7.9.0",
     "husky": "^4.3.0",
@@ -97,8 +100,7 @@
   "resolutions": {
     "icon-gen": "3.0.0",
     "degenerator": "2.2.0",
-    "electron-builder": "^23.0.0",
-    "@achrinza/node-ipc": "9.2.9"
+    "electron-builder": "^23.0.0"
   },
   "eslintConfig": {
     "root": true,

@@ -98,7 +98,7 @@
     "icon-gen": "3.0.0",
     "degenerator": "2.2.0",
     "electron-builder": "^23.0.0",
-    "@achrinza/node-ipc": "9.3.0"
+    "@achrinza/node-ipc": "9.2.9"
   },
   "eslintConfig": {
     "root": true,

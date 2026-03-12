@@ -22,9 +22,6 @@
     "netease_api:run": "npx @neteaseapireborn/api"
   },
   "main": "background.js",
-  "engines": {
-    "node": ">=18.0.0 <=24.99.99"
-  },
   "dependencies": {
     "@neteaseapireborn/api": "^4.29.7",
     "@unblockneteasemusic/rust-napi": "^0.4.0",
@@ -101,7 +98,7 @@
     "icon-gen": "3.0.0",
     "degenerator": "2.2.0",
     "electron-builder": "^23.0.0",
-    "@achrinza/node-ipc": "9.2.8"
+    "@achrinza/node-ipc": "9.3.0"
   },
   "eslintConfig": {
     "root": true,
